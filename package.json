@@ -16,7 +16,6 @@
     "@babel/core": "^7.8.4",
     "@babel/node": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
-    "@babel/polyfill": "^7.0.0",
     "@babel/plugin-transform-runtime",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
