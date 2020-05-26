@@ -9,7 +9,8 @@ function PaypalButton(props) {
     const clientID = result.data;
     const script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://www.paypal.com/sdk/js?client-id=' + clientID;
+  #  script.src = 'https://www.paypal.com/sdk/js?client-id=' + clientID;
+    script.src = 'https://www.paypal.com/sdk/js?client-id=AX-F8CWo_ZiWHMQS951yz8wRoUIZb0Dknn37S8ZoUN3mj6Cq7Of3PEbpGr3rUPqmAwxxonrjL3ZLmLj8';
     script.async = true;
     script.onload = () => {
       setSdkReady(true);
