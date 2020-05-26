@@ -10,7 +10,7 @@ function PaypalButton(props) {
     const script = document.createElement('script');
     script.type = 'text/javascript';
   //  script.src = 'https://www.paypal.com/sdk/js?client-id=' + clientID;
-    script.src = 'https://www.paypal.com/sdk/js?client-id=AX-F8CWo_ZiWHMQS951yz8wRoUIZb0Dknn37S8ZoUN3mj6Cq7Of3PEbpGr3rUPqmAwxxonrjL3ZLmLj8';
+    script.src = 'https://www.paypal.com/sdk/js?client-id=AfxJT9qqvUW5JwfqVXgCL1MizhKNc8MZCaDlR1FiZ4wRKtB3srU0yX8Cw3yqxPiQDxv20bZ--SsKRuQE';
     script.async = true;
     script.onload = () => {
       setSdkReady(true);
